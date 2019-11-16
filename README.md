@@ -14,7 +14,7 @@ The initiative for this course sprung from the amount of questions that arise ar
 - Employees can solve basic HTML issues by themselves;
 - Employees know the optimum way of using the CMS:
     - Check correct usage of tags;
-    - How to copy-paste materials and them modify them in a clean way;
+    - How to copy-paste materials and modify them in a clean way;
     - Stick to the HTML basics and leave most enhancing features (e.g. applying colors and spacing) to us;
 
 ## Requirements for employees who take the course
@@ -23,6 +23,6 @@ The initiative for this course sprung from the amount of questions that arise ar
     - Mac: https://git-scm.com/download/mac
 - Visual Studio Code (VS Code)
     - Windows & Mac: https://code.visualstudio.com/download
-- VS Code Extensions (once Visual Studio Code is installed, them under cubicle-looking-logo in the panel on the left)
+- VS Code Extensions (once Visual Studio Code is installed, find them under cubicle-looking-logo in the panel on the left)
     - Live Server (by Ritwick Dey)
     - HTMLHint (by Mike Kaufman)
