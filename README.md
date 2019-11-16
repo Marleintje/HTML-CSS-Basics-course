@@ -10,7 +10,7 @@ This repository contains support materials for a basic HTML/CSS course that we o
 The initiative for this course sprung from the amount of questions that arise around our CMS. These questions are small and usually about HTML, and indirectly about CSS and Bootstrap. More HTML knowledge for non-IT employees will hopefully save the IT-team time on the shorter and longer run.
 
 ## Goals of this course
-- Employees can apply the basics of HTML, and have knowlegde of the basics of CSS and Bootstrap;
+- Employees can apply the basics of HTML, and have knowledge of the basics of CSS and Bootstrap;
 - Employees can solve basic HTML issues by themselves;
 - Employees know the optimum way of using the CMS:
     - Check correct usage of tags;
@@ -26,3 +26,6 @@ The initiative for this course sprung from the amount of questions that arise ar
 - VS Code Extensions (once Visual Studio Code is installed, find them under cubicle-looking-logo in the panel on the left)
     - Live Server (by Ritwick Dey)
     - HTMLHint (by Mike Kaufman)
+
+## Good to know
+The 'Exercises-complete' folder contains files that are gitignored, and will be un-ignored 1 by 1 during the course of the class, to provide students with the completed HTML and CSS files.
