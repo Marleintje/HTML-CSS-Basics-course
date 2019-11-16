@@ -19,3 +19,8 @@ Basic HTML / CSS course for coworkers
 - Eerste alinea begint zonder <p>
 - Eerste alinea heeft lege <p></p> aan t einde
 - Nutteloze &nbsp;
+
+## Install git (see if it's worth it?)
+- https://gitforwindows.org/ --> Download
+- Follow installation, everything default
+- 
