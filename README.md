@@ -1,26 +1,28 @@
-# HTML-CSS-Basics-course
+# HTML CSS Basics course
+
+## Topic
 Basic HTML / CSS course for coworkers
 
-## TODO's vóór cursus
-- Check met Manon o.i.d. of SHIFT + ALT + F werkt (Mac: MacShift + Option + F)
-- Vraag Lisa hoe ze normaal ervoor zorgt dat images alleen op bepaalde schermgroottes verschijnen
-- Installeren extensies: Live Server (Ritwick Dey), HTMLHint (Mike Kaufman)
+## Contents
+This repository contains support materials for a basic HTML/CSS course that we organize at our company. 
 
-## Ideeën cursus:
+## Reason for this course
+The initiative for this course sprung from the amount of questions that arise around our CMS. These questions are small and usually about HTML, and indirectly about CSS and Bootstrap. More HTML knowledge for non-IT employees will hopefully save the IT-team time on the shorter and longer run.
 
-- <br> versus padding/margin.
-- Dingen die wij standaard targeten om pagina's er conform het design uit te laten zien; risico verlagen dat dit in het CMS zelf opgesmukt wordt, door HTML zo clean mogelijk te houden.
+## Goals of this course
+- Employees can apply the basics of HTML, and have knowlegde of the basics of CSS and Bootstrap;
+- Employees can solve basic HTML issues by themselves;
+- Employees know the optimum way of using the CMS:
+    - Check correct usage of tags;
+    - How to copy-paste materials and them modify them in a clean way;
+    - Stick to the HTML basics and leave most enhancing features (e.g. applying colors and spacing) to us;
 
-## Verzameling aan CMS zaken - te presenteren
-
-### Live CMS --> Flinndal --> Default --> Levering en thuiswinkelgarantie
-- <br> eruit
-- Useless col-sm-9 (moet er gewoon helemaal niet staan)
-- Eerste alinea begint zonder <p>
-- Eerste alinea heeft lege <p></p> aan t einde
-- Nutteloze &nbsp;
-
-## Install git (see if it's worth it?)
-- https://gitforwindows.org/ --> Download
-- Follow installation, everything default
-- 
+## Requirements for employees who take the course
+- GIT
+    - Windows: https://git-scm.com/download/win
+    - Mac: https://git-scm.com/download/mac
+- Visual Studio Code (VS Code)
+    - Windows & Mac: https://code.visualstudio.com/download
+- VS Code Extensions (once Visual Studio Code is installed, them under cubicle-looking-logo in the panel on the left)
+    - Live Server (by Ritwick Dey)
+    - HTMLHint (by Mike Kaufman)
