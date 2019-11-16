@@ -1,13 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" type="text/css" href="basics.css" media="screen" />
-	<title>Document</title>
-</head>
-<body>
-	<div>Hoi piepeloi</div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="basics.css" media="screen" />
+        <title>HTML/CSS course example</title>
+    </head>
+    <body>
+        <div class="container" id="product-box">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="http://flinndal.nl/cloud/img/vitamine_d_de4ad477.png?w=300&h=300"/>
+                </div>
+                <div class="col-sm-6">
+                    <h1>Vitamine D</h1>
+                    <a href="https://nl.wikipedia.org/wiki/Vitamine_D" target="_blank">27 beoordelingen</a>
+                    <ul>
+                        <li><img class="checkbox-in-list" src="./check-solid.svg" height="18px"/>Voor botten, spieren en weerstand</li>
+                        <li><img class="checkbox-in-list" src="./check-solid.svg" height="18px"/>Zeer goed opneembaar (D3)</li>
+                        <li><img class="checkbox-in-list" src="./check-solid.svg" height="18px"/>Krachtige dosering: 10 mcg (400 IE)</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h2>Aanbevolen gebruik</h2>
+                <table class="table">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Voor wie</th>
+                            <th>Dagdosering</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Kinderen tot 4 jaar</td>
+                            <td>1 tablet</td>
+                        </tr>
+                        <tr>
+                            <td>Vrouwen vanaf 50 jaar</td>
+                            <td>1 tablet</td>
+                        </tr>
+                        <tr>
+                            <td>Alle andere mensen</td>
+                            <td>1 tablet</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
 </html>

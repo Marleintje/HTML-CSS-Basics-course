@@ -1,3 +1,48 @@
+/* todo */
+
 body {
-	background: peachpuff;
+    font-family: "Calibri", "Times New Roman", "serif";
+    padding: 30px;
+    background-color: #fbf3ed;
+}
+
+a {
+    padding-bottom: 20px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #AE5821
+}
+
+h1, h2 {
+    color: #00888a;
+}
+
+h1 {
+    padding-bottom: 15px;
+}
+
+h2 {
+    padding: 20px 0;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.checkbox-in-list {
+    color: green;
+    padding-right: 10px;
+}
+
+#product-box {
+    background-color: white;
+    border: 2px solid #AE5821;
+    border-radius: 5px;
+    padding: 20px;
 }
