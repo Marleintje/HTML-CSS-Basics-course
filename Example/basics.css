@@ -29,6 +29,10 @@ h1 {
 h2 {
     padding: 20px 0;
 }
+x
+img:hover {
+    height: 320px;
+}   
 
 ul {
     padding-left: 0;
@@ -38,6 +42,10 @@ ul {
 .checkbox-in-list {
     color: green;
     padding-right: 10px;
+}
+
+.div-with-image {
+    height: 320px;
 }
 
 #product-box {
