@@ -1,3 +1,11 @@
 body {
 	background: rgb(239, 248, 240);
 }
+
+#types-of-coffee {
+	color: #AF6A44;
+}
+
+.long-black {
+	font-weight: bold;
+}
