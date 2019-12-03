@@ -30,7 +30,6 @@
 
 - Alles wat je schrijft in CMS is eigenlijk HTML
 - <b> vs font-weight-bold
-- <div> stands voor division and groups HTML elements together
 - in een <p> zit een blok text. De standaard opmaak is al met ruimte ertussen, dus geen extra br bitte. <p>
 worden vanzelf gecreëerd door het CMS
 - een <span> wordt gebruikt voor short pieces of text; they often separate content on the same line
