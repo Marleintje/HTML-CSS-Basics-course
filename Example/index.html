@@ -5,54 +5,56 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="basics.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="basics.css" media="screen" />
         <title>HTML/CSS course example</title>
     </head>
     <body>
-        <!-- This is a comment. It will not appear in your browser. -->
+		<!-- This is a comment. It will not appear in your browser. -->
         <div class="container" id="product-box">
-            <div class="row">
-                <div class="col-sm-6 div-with-image">
-                    <img src="http://flinndal.nl/cloud/img/vitamine_d_de4ad477.png?w=300&h=300"/>
+			<div class="row">
+				<div class="col-sm-6 div-with-image">
+					<img src="http://flinndal.nl/cloud/img/vitamine_d_de4ad477.png?w=300&h=300"/>
                 </div>
                 <div class="col-sm-6">
-                    <h1>Vitamine D</h1>
+					<h1>Vitamine D</h1>
                     <a href="https://nl.wikipedia.org/wiki/Vitamine_D" target="_blank">27 beoordelingen</a>
                     <ul>
-                        <li><img class="checkbox-in-list" src="./check-solid.svg" height="18px"/>Voor botten, spieren en weerstand</li>
+						<li><img class="checkbox-in-list" src="./check-solid.svg" height="18px"/>Voor botten, spieren en weerstand</li>
                         <li><img class="checkbox-in-list" src="./check-solid.svg" height="18px"/>Zeer goed opneembaar (D3)</li>
                         <li><img class="checkbox-in-list" src="./check-solid.svg" height="18px"/>Krachtige dosering: 10 mcg (400 IE)</li>
                     </ul>
                 </div>
-            </div>
-            <div class="d-none d-sm-block">
-                <h2>Aanbevolen gebruik</h2>
+			</div>
+			<button id="js-show-recommended-use" class="btn btn-primary">Show "Aanbevolen Gebruik"</button>
+			<button id="js-hide-recommended-use" class="btn btn-secondary d-none">Hide "Aanbevolen gebruik"</button>
+            <div id="js-toggle-d-none" class="d-none">
+				<h2>Aanbevolen gebruik</h2>
                 <table class="table">
-                    <thead class="thead-light">
-                        <tr>
-                            <th>Voor wie</th>
+					<thead class="thead-light">
+						<tr>
+							<th>Voor wie</th>
                             <th>Dagdosering</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>Kinderen tot 4 jaar</td>
+						<tr>
+							<td>Kinderen tot 4 jaar</td>
                             <td>1 tablet</td>
                         </tr>
                         <tr>
-                            <td>Vrouwen vanaf 50 jaar</td>
+							<td>Vrouwen vanaf 50 jaar</td>
                             <td>1 tablet</td>
                         </tr>
                         <tr>  
-                            <td>Mensen die gesluierd zijn (jonger dan 70)</td>
+							<td>Mensen die gesluierd zijn (jonger dan 70)</td>
                             <td>1 tot 2 tabletten</td>
                         </tr>
                         <tr>
-                            <td>Mannen en vrouwen vanaf 70 jaar</td>
+							<td>Mannen en vrouwen vanaf 70 jaar</td>
                             <td>2 tabletten</td>
                         </tr>
                         <tr>
-                            <td>Alle andere mensen</td>
+							<td>Alle andere mensen</td>
                             <td>1 tablet</td>
                         </tr>
                     </tbody>
@@ -60,4 +62,6 @@
             </div>
         </div>
     </body>
-</html>
+	<script type="text/javascript" src="index.js"></script>
+	</html>
+	
