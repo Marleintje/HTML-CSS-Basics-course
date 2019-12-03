@@ -25,15 +25,11 @@
 - H1, H2, etc standaard een bepaalde grootte en look. Check dit ev. op website bij ander artikel.
 - SEO tips voor het maken van een pagina: één H1, etc.
 - Alles extra ruimte in spaties is eigenlijk 1 spatie. Als je 'enter enter' doet in het CMS, komen er <br> voor in de plaats
-- Uploaden images: niet groter dan zoveel MB?
-
 
 ## Ideëen cursus via Codecademy
 
-- <html>, <body> tags en such zijn essentieel voor goed HTML doc, maar deze zul je niet zien als je in CMS aan de slag gaat
 - Alles wat je schrijft in CMS is eigenlijk HTML
 - <b> vs font-weight-bold
-- 4/16 -> Child, parent, sibling(s), nesting, indentation, inheritance of behavior
 - <div> stands voor division and groups HTML elements together
 - in een <p> zit een blok text. De standaard opmaak is al met ruimte ertussen, dus geen extra br bitte. <p>
 worden vanzelf gecreëerd door het CMS
