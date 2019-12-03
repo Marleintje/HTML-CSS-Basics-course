@@ -1,11 +1,35 @@
 body {
-	background: rgb(239, 248, 240);
+	background: #f7f7f7;
+}
+
+h1 {
+	padding-bottom: 20px;
 }
 
 #types-of-coffee {
-	color: #AF6A44;
+	color: #004085;
 }
 
 .no-milk {
 	color: brown;
 }
+
+/* The CSS below is commented out. It is not applied to the HTML page. */
+
+/*
+.table {
+    margin-bottom: 1rem;
+    color: #212529;
+	border-collapse: collapse;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+} */
